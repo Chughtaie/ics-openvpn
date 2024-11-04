@@ -348,7 +348,7 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
 
         if (lastChannel != null && !channel.equals(lastChannel)) {
             // Cancel old notification
-            mNotificationManager.cancel(lastChannel.hashCode());
+//            mNotificationManager.cancel(lastChannel.hashCode());
         }
 
         // Check if running on a TV
