@@ -340,7 +340,7 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
         @SuppressWarnings("deprecation")
         Notification notification = nbuilder.getNotification();
 
-        int notificationId = channel.hashCode();
+        int notificationId = 10 ; //channel.hashCode();
 
         mNotificationManager.notify(notificationId, notification);
 
